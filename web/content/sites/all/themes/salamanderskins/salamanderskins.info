@@ -1,0 +1,35 @@
+name = Salamander Skins (Salamander)
+description = Multi-column, 15 fully collapsible regions, plugable color styles, fixed or fluid (default) width theme (see Readme.txt).
+core = 6.x
+engine = phptemplate
+screenshot = screenshot.png
+php = DRUPAL_MINIMUM_PHP
+regions[sidebar_left] = Left sidebar
+regions[sidebar_right] = Right sidebar
+regions[above] = Above
+regions[header] = Header
+regions[suckerfish] = Suckerfish Menu
+regions[user1] = User 1
+regions[user2] = User 2
+regions[user3] = User 3
+regions[content_top] = Top content
+regions[content_bottom] = Bottom content
+regions[user4] = User 4
+regions[user5] = User 5
+regions[user6] = User 6
+regions[below] = Below
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = mission
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = primary_links
+features[] = secondary_links
+; Information added by drupal.org packaging script on 2008-11-29
+version = "6.x-1.1"
+core = "6.x"
+project = "salamanderskins"
+datestamp = "1227966338"
+

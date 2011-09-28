@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, Helvetica;
+	line-height: 125%;
+	min-width: 850px;
+	color: #000000;
+    font-size: 12px;
+}
+
+a {
+	color: #B2B8B4;
+}
+a:active, a:hover {
+	color: #003C61 !important;
+}
+
+/* Managers */
+
+.managerth {
+	border-bottom: none;
+	background:url(images/all/chartheaderbg.png) repeat-x;
+	color: #02445a;
+	font-weight: bold;
+	font-size: 15px;
+	height: 25px;
+}	
+
+.managerth h2{
+	margin: 0;
+	padding: 0;
+}
+
+table .managerstyle p {
+	padding-top:0;
+	margin-top:0;
+}
+
+.managercaption {
+	font-size: 11px;
+}
+	
+	
+	
+	
+	
+	
+	

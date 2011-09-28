@@ -1,0 +1,981 @@
+/* style.css,v 2.0 2007/09/22 
+ *
+ * Salamander Skins theme, for Drupal 5&6
+ * Florian Radut, florian[at]radut.net
+ */
+
+@import "style-mini.css";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, Helvetica;
+	line-height: 125%;
+	min-width: 850px;
+	color: #000000;
+    font-size: 12px;
+}
+
+a {
+	color: #B2B8B4;
+}
+a:active, a:hover {
+	color: #003C61 !important;
+}
+
+#above {
+	height: 20px;
+	text-align: center;
+	background: #758795;
+}
+#page, #above {
+	margin: -15px auto 0;
+    width: 100%; /* page width setiing ... for example, change it to 1000px for a page width of 1024px  */
+}
+tbody {
+	border: none;
+}
+tr.odd td, tr.even td {
+	padding: 10px 10px 10px 0;
+}
+h1, h2, h3, h4, h4 {
+	margin: 0 0 10px 0;
+}
+h1, #block-block-14 .title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	line-height: normal;
+	color: #003C61;
+	font-weight:normal;
+}
+
+#block-block-14 h2, #block-block-14 .title, #block-block-14 h2.title,#block-block-14 p {
+	display: none;
+	padding: 0;
+	margin: 0;	
+}
+
+h2 {
+	font-size: 16px;
+	color: #1795c7;
+}
+
+
+h3 {
+	color: #699c5e;
+	font-size: 16px;
+}
+
+h4 {
+	font-size:  100%;
+}
+p {
+	/*margin-top: 0px;
+	margin-bottom: 0.9em;*/
+	line-height: 18px;
+	font-size: 12px;
+}
+.views-align-left p {
+	margin: 0;
+	color: #000000;
+	font-weight:bold;
+	line-height: 25px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: none;
+	color: #3F3F3F;
+}
+
+/* Featured */
+.field-content {
+	color: #000000;
+	font-weight:bold;
+}
+.field-content a{
+	color: #86817d !important;
+	font-weight:bold;
+	font-size: 11px;
+}
+
+fieldset {
+	border: 1px solid #ccc;
+}
+pre {
+	background-color: #eee;
+	padding: 0.75em 1.5em;
+	font-size: 12px;
+	border: 1px solid #ddd;
+}
+table {
+	font-size: 1em;
+}
+.form-item label {
+	font-size: 1em;
+	color: #222;
+}
+.item-list .title {
+	color: #222;
+}
+.links {
+	margin: 0;
+}
+.comment .links {
+	margin-bottom: 0;
+}
+#header, #content {
+	margin: 0 auto;
+    width: 950px;
+}
+#header .block {
+	padding: 0;
+	margin: 10px 20px 0 20px;
+}
+table.sections {
+	width: 100%;
+	padding: 0;
+}
+.clr {
+	clear: both;
+}
+td.section.width49 {
+	width: 50%;
+}
+td.section.width33 {
+	width: 33%;
+}
+#masthead {
+	float: none;
+	clear: both;
+	line-height: normal;
+	background: #758795;
+	height: 120px;
+	margin-top:15px;
+}
+
+#name-and-slogan {
+	display: none;
+}
+
+#logo {
+	float: left;
+	margin: 0;
+	padding-top: 35px;
+}
+#logo img {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#site-name {
+	margin: 0 0 0 35px;
+	padding: 30px 0 0 0;
+	text-indent: -9999px;
+}
+#site-name a, #site-name a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 185%;
+}
+#site-slogan {
+	margin: 0 0 0 38px;
+	padding: 4px 0 0 0;
+	font-size: 12px;
+}
+#mission {
+	font-weight: normal;
+	padding: 1em 1em 0.75em 2em;
+	margin: 20px 10px;
+	font-size: 85%;
+}
+#mission a, #mission a:visited {
+	font-weight: normal;
+	text-decoration: underline;
+}
+#search {
+	padding-top: 15px;
+	padding-right: 15px;
+	float: right;
+}
+#search .form-text, #search .form-submit {
+	font-size: 1.1em;
+	height: 1.5em;
+	vertical-align: middle;
+}
+#search .form-text {
+	width: 8em;
+	padding: 0 0.5em;
+}
+#search .form-item label, .block-search .form-item label {
+  display: none;
+}
+
+/* Menu styles */
+
+#primary {
+}
+#primary ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#primary li {
+	display: inline;
+}
+#primary a {
+	font-weight: bold;
+	display: block;
+	float: left;
+	padding: 0px 14px;
+	margin: 0px 1px 0px 0px;
+	font-size: 95%;
+	height: 31px;
+}
+#secondary ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#secondary li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+#secondary li a {
+	float: left;
+	display: block;
+	font-size: 90%;
+	padding: 0px 14px;
+}
+#primary a, #primary a:hover, #secondary a, #secondary a:hover {
+	text-decoration: none;
+}
+#footer ul.links li.first, ul.links li.first {
+	border: none;
+}
+#footer .block ul, #footer ul.links li.first {
+	margin-left: 0;
+  padding-left: 0;
+}
+#middlecontainer {
+	padding: 1px 0 5px 0;
+}
+#main {
+	padding: 0 40px 0 0;
+	width: 730px;
+	margin-bottom: 70px;
+}
+#block-block-14 .block {
+	padding-top: 0px;
+}
+
+#sidebar-right .title {
+	border-bottom: 1px solid #EAEAEA;
+    color: #a4a4a4 !important;
+    font-size: 14px;
+    padding: 10px 0 20px 15px;
+    text-transform: uppercase;
+}
+
+#sidebar-left, #sidebar-right {
+	width: 160px;
+	vertical-align: top;
+}
+#sidebar-left .block, #sidebar-right .block {
+	padding-right: 20px;
+	padding-bottom: 15px;
+}
+#footer {
+	text-align: center;
+	margin: 0;
+	padding: 1em;
+	font-size: 75%;
+}
+#footer a {
+	font-weight: normal;
+}
+#footer .block {
+	padding: 0;
+	margin: 0;
+}
+#header .block h2, #footer .block h2 {
+	display: none;
+}
+
+#block-block-8 {
+	padding-top: 71px;
+}
+
+#block-block-8 h2, #block-block-7 h2, #block-block-61 h2 {
+	display: none;
+}
+#block-block-8 p {
+	padding: 0;
+	margin: 0;
+}
+
+
+.breadcrumb {
+	visibility: hidden;
+}
+
+#breadcrumb {
+	padding-left: 14px;
+	clear: both;
+	font-size: 80%;
+	height: 32px;
+}
+#breadcrumb a {
+	font-weight: normal;
+}
+
+.submitted {
+	font-size: 0.8em;
+}
+.links a {
+	font-weight: bold;
+}
+.box {
+	padding: 0 0 1.5em 0;
+}
+.block {
+	padding-bottom: 0.75em;
+	margin-bottom: .5em;
+}
+.section .block, .section .box {
+	padding: 0;
+	margin-bottom: 15px;
+}
+.block .title {
+	margin-bottom: 0;
+}
+.node {
+	margin: .5em 0 2em 0;
+}
+.sticky {
+}
+.node .content, .comment .content {
+	margin: .5em 0 .5em 0;
+}
+.node .taxonomy {
+	font-size: 0.8em;
+	padding-left: 0.6em;
+}
+.node .taxonomy a {
+	font-weight: normal;
+}
+#help {
+	font-size: 0.9em;
+	margin-bottom: 1em;
+}
+.messages {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 0.3em;
+	margin-bottom: 1em;
+}
+.error {
+	border-color: red;
+}
+.comment {
+	padding: .5em;
+	margin-bottom: 1em;
+}
+.comment .title {
+	padding: 10px 0 12px 19px;
+	background: transparent url(images/all/icon-comment.png) left center no-repeat;
+}
+.comment .title a {
+	font-weight: normal;
+}
+.comment .new {
+	text-align: right;
+	font-weight: bold;
+	font-size: 0.8em;
+	float: right;
+	color: red;
+}
+.node .picture, .comment .picture {
+	float: right;
+	margin: 0.5em;
+}
+#aggregator .feed-source {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin: 1em 0;
+}
+#aggregator .news-item .categories, #aggregator .source, #aggregator .age {
+	font-style: italic;
+	font-size: 0.9em;
+}
+#aggregator .title {
+	margin-bottom: 0.5em;
+}
+#aggregator h3 {
+	margin-top: 1em;
+}
+#forum table {
+	width: 100%;
+}
+#forum td {
+	padding: 0.5em;
+}
+#forum td.forum, #forum td.posts {
+	background-color: #eee;
+}
+#forum td.topics, #forum td.last-reply {
+	background-color: #ddd;
+}
+#forum td.container {
+	background: #cdcdcd url(images/all/forum-container.jpg) right top no-repeat;
+}
+#forum td.container a {
+	padding: 10px 0 10px 40px;
+	background: transparent url(images/all/forum-link.png) left center no-repeat;
+}
+#forum td.statistics, #forum td.settings, #forum td.pager {
+	height: 1.5em;
+	border: 1px solid #bbb;
+}
+#forum td .links {
+	padding-top: 0.7em;
+	font-size: 0.9em;
+}
+#profile .profile {
+	clear: both;
+	border: 1px solid #abc;
+	padding: .5em;
+	margin: 1em 0em;
+}
+#profile .profile .name {
+	padding-bottom: 0.5em;
+}
+.block-forum h3 {
+	margin-bottom: .5em;
+}
+div.admin-panel .body {
+	background: #f4f4f4;
+}
+div.admin-panel h3 {
+	color: #abc;
+	padding: 5px 8px 5px;
+	margin: 0;
+}
+#section1 td.section, #section2 td.section {
+	padding: 0;
+}
+
+#secondary {
+	display: none; /* Hide Default Secondary Menu */
+}
+
+#block-menu-secondary-links {
+	display: inline-block;
+    float: right;
+    margin-top: 80px !important;
+    position: relative;
+    width: 290px;
+	z-index: 100px;
+}
+
+#block-menu-secondary-links ul li {
+	float: none; 
+	display: inline;
+}
+#block-menu-secondary-links ul li a{
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal !important;
+	color: #ffffff;
+	text-decoration:none;
+	background: none !important;
+}
+li.leaf {
+	padding: 0;
+	list-style-type: none !important;
+}
+
+#block-menu-secondary-links ul li a:hover {
+    text-decoration: underline;
+}
+
+	
+
+/* another son of suckerfish...
+http://www.htmldog.com/articles/suckerfish/dropdowns/
+http://www.alistapart.com/articles/horizdropdowns
+*/
+
+#suckerfish-container {
+	margin: 0 auto; /* center page */
+	text-align: left; /* overrides text-align: center */
+	width: 1000px;
+	height: 32px;
+}
+#suckerfishmenu {
+	float: left; /* suckerfish align */
+	height: 31px;
+}
+#suckerfishmenu h2 {
+	display: none;
+}
+#suckerfishmenu	.block {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#suckerfishmenu	.block, #suckerfishmenu	.box {
+	padding: 0;
+}
+#suckerfishmenu ul.menu { /* top level ul */
+	padding: 0;
+	list-style: none;
+	z-index: 100;
+	display: inline;
+} 
+#suckerfishmenu	a:link {
+	display: block;
+	margin: 0;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0 20px;
+	line-height: 32px;
+	color: #B2B8B4 !important;
+}
+#suckerfishmenu a:active, #suckerfishmenu a:hover {
+	text-decoration: none;
+	background:#ffffff !important;
+	height: 32px;
+	color: #003C61 !important;
+}
+#suckerfishmenu	li {
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+/* suckerfish second-level lists */
+#suckerfishmenu ul.menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#suckerfishmenu ul.menu li ul {
+	position: absolute;
+	width: 170px;
+	left: -999em; /* to hide menus because display: none isn't read by screen readers */
+}
+#suckerfishmenu ul.menu li li {
+	/*height: auto;*/
+	float: right;
+	width: 170px;
+}
+#suckerfishmenu ul.menu li li a:link,
+#suckerfishmenu ul.menu li li a:visited {
+	font-weight: bold;
+	width: 170px;
+}
+#suckerfishmenu ul.menu li ul a {
+	padding: 0.1em 0 0em 0.8em;
+	width: 170px;
+	line-height: 25px;
+}
+#suckerfishmenu ul.menu li ul a:active,
+#suckerfishmenu ul.menu li ul a:hover {
+	text-decoration: none;
+}
+
+/* suckerfish margin for pullouts */
+#suckerfishmenu ul.menu li ul ul {
+	margin: -28px 0 0 182px;
+}
+#suckerfishmenu ul.menu li:hover ul ul, 
+#suckerfishmenu ul.menu li:hover ul ul ul, 
+#suckerfishmenu ul.menu li.sfhover ul ul, 
+#suckerfishmenu ul.menu li.sfhover ul ul ul {
+	left: -999em;
+}
+#suckerfishmenu ul.menu li:hover ul, 
+#suckerfishmenu ul.menu li li:hover ul, 
+#suckerfishmenu ul.menu li li li:hover ul, 
+#suckerfishmenu ul.menu li.sfhover ul, 
+#suckerfishmenu ul.menu li li.sfhover ul, 
+#suckerfishmenu ul.menu li li li.sfhover ul {
+	left: auto;
+}
+
+#user-login-form {
+	text-align: left !important;
+}
+#user-login-form ul li.openid-link ,
+#user-login-form ul li.user-link {
+  padding: 5px 0 0 20px;
+  margin-left: 0;
+  list-style-type: none;
+}
+.book-navigation .menu {
+	border-top: none;
+}
+
+.by {
+	position: relative;
+	float: right;
+	top: -20px;
+	margin: 0 5px -20px;
+	text-align: center;
+}
+#offline {
+	padding: 50px;
+}
+
+/* Charts and Tables Styles */
+h5 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color: #000000;
+	line-height: 15px;
+	margin: 0;
+}
+	
+table .leftheader {
+	text-align: left !important;
+	line-height: 11px;
+	border-bottom: 1px solid #CCCCCC;
+}
+		
+table .chartstyle, table .chartstyle2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #000000;
+	line-height: 15px;
+	/*margin-top: 15px;*/
+}
+
+table .chartstyle .chartbgcolor, table .chartstyle2 .chartbgcolor  {
+	background-color: #eff1f3;
+}
+
+table .chartstyle .chartgradent, table .chartstyle2 .chartgradent {
+	background: url("images/all/chartgradient.png") repeat-x scroll center bottom transparent;
+    border-bottom: 1px solid #EAEAE6;
+    height: 31px;
+	vertical-align: bottom;
+}
+
+table .chartstyle td, table .managerstyle td {
+	vertical-align: top;
+}
+
+table .chartstyle2 td{
+	vertical-align: top;
+	border-bottom:1px solid #CCCCCC;
+}
+
+table .chartstyle th, table .chartstyle2 th {
+    text-align: center;
+	line-height: 11px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+table .charttitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color: #699c5e;
+	margin: 0;
+}
+
+/* Overvoew */
+#overview-chart {
+	width: 730px;
+	margin-bottom: 30px;
+	display: block;
+	height: 105px;
+}
+#overview-chart table {
+	margin: 20px auto 0;
+	text-align:left;
+	line-height: 20px;
+}
+#overview-chart .leftcol {
+	width: 305px;
+	height: 105px;
+	float: left;
+	background:url(images/all/overviewbg.png) repeat-x;
+	border-bottom: 1px solid #c2cacc;
+	margin: 0 2px 0 0;
+}
+#overview-chart .rightcol {
+	width: 423px;
+	height: 105px;
+	float: left;
+	background:url(images/all/overviewbg.png) repeat-x;
+	border-bottom: 1px solid #c2cacc;
+}
+
+#overview-chart .tdtitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color: #787471;
+}
+
+#overview-chart .tdvalue {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color: #000000;
+}
+
+#block-block-1 {
+	margin: 0;
+	padding-top: 0 !important;
+}
+
+#block-block-1 .title {
+	display: none;
+}
+	
+	
+	
+/* Managers */
+
+.managerth {
+	border-bottom: none;
+	background:url(images/all/chartheaderbg.png) 0 5px no-repeat;
+	color: #02445a;
+	font-size: 15px;
+	height: 25px;
+}	
+
+.managerth h2{
+	margin: 0;
+	padding: 0;
+}
+
+table .managerstyle p {
+	padding-top:0;
+	margin-top:0;
+}
+
+.managercaption {
+	font-size: 11px;
+	line-height: 11px;
+	width: 75px;
+	display: block;
+}
+	
+
+/* Module specific styles */
+
+ul.galleries li, ul.images li {
+	background : none;
+	border : none;
+}
+body.mceContentBody {
+	background: #eee !important;
+	font-size: 14px;
+}
+body.mceContentBody a:link {
+	font-weight: normal;
+}
+
+/* Learn about us dropdown */
+
+#block-block-6 {
+	height: 20px;
+    margin: 0 auto;
+    width: 950px;
+	padding: 0 55px 0 0 !important;
+}
+#block-block-6 h2 {
+	display: none;
+}
+
+ul.blockeasing {  
+    color:#CCCCCC;  
+    float:right;  
+    font-size:11px;  
+    padding:0;  
+    }  
+
+ul.blockeasing li{  
+    display: block;
+	background-color: none !important;
+    float: left;
+    height: 13px;
+    list-style: none outside none;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 210px;  
+    }  
+      
+    ul.blockeasing li a{  
+         color:#CCCCCC;  
+    }  
+  
+    ul.blockeasing li ul{  
+         background:none repeat scroll 0 0 #d6dee0;  
+         border-bottom:3px solid #384b5a;  
+         float:left;  
+         padding:0;  
+         display: none;  
+         position:absolute;  
+         left:2%;  
+         width:250px;  
+         margin-top:3px  
+		 z-index: 200px;
+		 }  
+      
+    ul.blockeasing li ul li{  
+        border:none;  
+        border-bottom:1px solid #ccc;  
+        padding:5px;  
+        float:left;  
+        width:100px;  
+        overflow:hidden;
+		z-index: 200px;
+        }  
+		
+		/* FAQ Styles */
+#block-block-14 .faq-header,#block-block-14 .faq-header a:link, #block-block-14 .faq-header a:visited, #block-block-14 .faq-header a:hover, #main .faq h5 {
+	font-size:14px;
+	color: #1795C7;
+	line-height: 25px;
+}
+
+#block-block-14 .faq-question-answer a {
+	color: #003C61;
+}
+
+#content-top #block-block-42 {
+	margin-bottom: -10px;
+    padding: 0;
+}
+
+/* Ticker Symbol */
+#block-block-13 .ticker, #block-block-29 .ticker, #block-block-39 .ticker, #block-block-40 .ticker, #block-block-41 .ticker, #block-block-42 .ticker, #block-block-62 .ticker {
+	color: #A8A4A1;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.tinygray {
+	color: #A8A4A1;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+#block-block-13 .fundtitle, #block-block-29 .fundtitle, #block-block-39 .fundtitle, #block-block-40 .fundtitle, #block-block-41 .fundtitle, #block-block-42 .fundtitle{
+	font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+	color: #003C61;
+	padding: 0;
+	margin: 0 0 25px 0;
+}
+
+/*--Main Container--*/
+#block-block-14 .main_view {
+	float: left;
+	position: relative;
+}
+/*--Window/Masking Styles--*/
+#block-block-14 .window {
+	height:286px;	width: 790px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+#block-block-14 .image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+#block-block-14 .image_reel img {float: left;}
+
+/*--Paging Styles--*/
+#block-block-14 .paging {
+	position: absolute;
+	bottom: 40px; right: -7px;
+	width: 178px; height:47px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 40px;
+	background: url(http://www.sohtanaka.com/web-design/examples/image-slider/paging_bg2.png) no-repeat;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+#block-block-14 .paging a {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+#block-block-14 .paging a.active {
+	font-weight: bold;
+	background: #920000;
+	border: 1px solid #610000;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#block-block-14 .paging a:hover {font-weight: bold;}
+
+#block-block-15 {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+/* Hide Fund Titles */
+#block-quicktabs-fundsperformancetabs .block block-quicktabs .title {
+	display: none !important;
+}
+
+/* Bio Popups */
+/* jqModal base Styling courtesy of;
+  Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+  the Window's z-index value will be set to 3000 by default (in jqModal.js). You
+  can change this value by either;
+    a) supplying one via CSS
+    b) passing the "zIndex" parameter. E.g.  (window).jqm({zIndex: 500}); */
+  
+.jqmWindow {
+    display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -300px;
+    width: 600px;
+    
+    background-color: #EEE;
+    color: #333;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.jqmOverlay { background-color: #000; }
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}	
+	

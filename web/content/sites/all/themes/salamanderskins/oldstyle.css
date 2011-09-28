@@ -1,0 +1,274 @@
+@import "style-base.css";
+
+body {
+  color: #292929;
+  background: #e4e4e4 url(images/bg.png) 0 0 repeat-x;
+}
+
+.view-content a {
+	color: #ADB1B2;
+}
+	
+
+#section1 {
+	color: #f0f0f0;
+	background: #277bc0 url(images/topregion-bg.png) 0 0 repeat-x;
+}
+
+#section1 a,
+#section1 a:link,
+#section1 a:visited {
+	color: #ffcd06 !important;
+}
+
+#section1 h2, #section1 h2 a {
+	color: #131e23 !important;
+}
+
+#middlecontainer {
+	background: #fff url(images/all/body-bg.png) 0 0 repeat-x;
+}
+
+#middlecontainer h1.title {
+	color: #104a91 !important;
+}
+
+#middlecontainer h2.title  {
+	color: #104a91 !important;
+}
+
+#content-top h2 {
+	color: #045566 !important;
+    font-family: times New Roman;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0 0 20px;
+}
+
+.node h2.title a {
+	color: #104a91 !important;
+}
+
+#section2 {
+	color: #fff;
+	background: #00335b url(images/bottomregion-bg.png) 0 0 repeat-x;
+}
+
+#section2 a,
+#section2 a:link,
+#section2 a:visited {
+	color: #ffcd06 !important;
+}
+
+#section2 h2, #section2 h2 a {
+	color: #131e23 !important;
+}
+
+#section1 td.section {
+	background: transparent url(images/topline.png) 0 0 no-repeat;
+}
+
+#section2 td.section {
+	background: transparent url(images/bottomline.png) 0 1px no-repeat;
+}
+
+#masthead {
+	background: #bdbdbd url(images/mast-bg.png) 0 0 repeat-x;
+}
+
+#header .header-right {
+	background: transparent url(images/mast-r.png) 100% 0 no-repeat;
+}
+
+#header .header-left {
+	background: transparent url(images/mast-l.png) 0 0 no-repeat;
+	padding: 1px 0 14px 0;
+}
+
+#postnav {
+	border-bottom: 1px solid #58a8d1;
+}
+
+#breadcrumb, #breadcrumb a {
+	color: #353535 !important;
+	background-color: #bdbdbd;
+}
+
+#breadcrumb .breadcrumb {
+	padding: 0;
+}
+
+#bar {
+	background: transparent url(images/bar.png) 0 0 repeat-x;
+	padding: 4px 0 3px;
+}
+
+#bar2 {
+	background: transparent url(images/bar2.png) 0 0 repeat-x;
+	padding: 1px;
+}
+
+#footer-wrapper {
+	background: #000911 url(images/footer-bg.png) 0 0 repeat-x;
+}
+
+#footer-wrapper .footer-right {
+	background: transparent url(images/footer-r.png) 100% 0 no-repeat;
+}
+
+#footer-wrapper .footer-left {
+	height: 15px;
+	overflow: hidden;
+	background: transparent url(images/footer-l.png) 0 0 no-repeat;
+}
+
+#footer, #footer a {
+	color: #adadad !important;
+}
+
+#shadow {
+	background: transparent url(images/shadow-bg.png) 0 0 repeat-x;
+	margin-top: 2px;
+}
+#shadow .shadow-right {
+	background: transparent url(images/shadow-r.png) 100% 0 no-repeat;
+}
+#shadow .shadow-left {
+	background: transparent url(images/shadow-l.png) 0 0 no-repeat;
+	height: 52px;
+}
+
+/* Menu styles */
+
+li.expanded {
+  list-style-image: url(images/all/menu-expanded.png);
+}
+li.collapsed {
+  list-style-image: url(images/all/menu-collapsed.png);
+}
+
+#navigation {
+	background: #292929 url(images/menu-bg.png) repeat-x;
+}
+
+/* uncomment this to have the menu items on the right
+.navcont { 
+	float: right;
+}
+*/
+#primary a, #suckerfishmenu a {
+	color: #fff !important;
+	background: transparent url(images/menu-div.png) 100% 0 repeat-y;
+}
+
+#primary a:hover, #suckerfishmenu a:hover {
+	background: #353535;
+}
+
+#primary li a.active, #suckerfishmenu li a.active {
+	color: #0cf !important;
+}
+
+#secondary a {
+	color: #fff !important;
+	background: url(images/menu-div.png) 100% 0 repeat-y;
+}
+
+#secondary a:hover {
+	background-color: #555;
+}
+
+#secondary a.active {
+	color: #0cf !important;
+}
+
+/* suckerfishmenu */
+
+#suckerfishmenu ul.menu li li a:link, #suckerfishmenu ul.menu li li a:visited {
+	color: #fff;
+	background: #292929;
+	border-left: 1px solid #666;
+	border-top: 1px solid #666;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+#suckerfishmenu ul.menu li ul a:hover {
+	color: #fff;
+	background: #555;
+}
+#suckerfishmenu ul.menu li li.expanded a,
+#suckerfishmenu ul.menu li li.expanded ul.menu li.expanded a {
+	background: #292929 url(images/arrow1.png) 100% 50% no-repeat;
+}
+#suckerfishmenu ul.menu li li.expanded a:hover,
+#suckerfishmenu ul.menu li li.expanded ul.menu li.expanded a:hover {
+	background: #555 url(images/arrow2.png) 100% 50% no-repeat;
+}
+#suckerfishmenu ul.menu li li.expanded ul.menu a,
+#suckerfishmenu ul.menu li li.expanded ul.menu li.expanded ul.menu a {
+	background: #292929;
+}
+#suckerfishmenu ul.menu li li.expanded ul.menu a:hover,
+#suckerfishmenu ul.menu li li.expanded ul.menu li.expanded ul.menu a:hover {
+	background: #555;
+}
+
+ul.links li {
+	border-left: 1px solid #d3d3d3;
+}
+
+.book-navigation .page-links {
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+#footer ul.links li {
+	border-left: 1px solid #666;
+}
+
+
+/* main style overiding */
+
+#site-name a, #site-name a:hover {
+	color: #fff !important;
+}
+
+#site-slogan {
+  color: #000;
+  font-style: italic;
+}
+
+#mission {
+	color: #333;
+	border: solid 1px #d3d3d3;
+}
+
+#search .form-text, #search .form-submit {
+	border: 1px solid #369;
+}
+
+.submitted, .links {
+	color: #8e6126;
+}
+
+.comment {
+	border: 1px solid #d3d3d3;
+}
+
+.image-thumbnail, .image-preview {
+	border: none;
+}
+
+ul.galleries li {
+	background : #eee;
+	border : 1px #ccc solid;
+}
+
+
+
+
+
+
+
+
+
